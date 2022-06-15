@@ -11,7 +11,6 @@ void setIO(string name="") {
 const int mxN=100;
 vector<int> adj[mxN];
 int cnt[mxN];
-int ans[mxN] = {};
 
 void dfs(int u) {
 	cnt[u]=1;
